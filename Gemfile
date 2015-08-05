@@ -6,7 +6,7 @@ source "http://rubygems.org"
 # Add dependencies to develop your gem here.
 # Include everything needed to run rake, tests, features, etc.
 group :development do
-	gem 'probedock-rspec', '~> 0.5.4'
+  gem 'probedock-rspec', '~> 0.5.5'
   gem 'rake', '~> 10.3'
   gem 'rspec', '~> 3.1'
   gem 'jeweler', '~> 2.0'
