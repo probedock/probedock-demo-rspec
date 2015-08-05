@@ -60,7 +60,7 @@ GEM
       rack (~> 1.2)
     oj (2.12.11)
     paint (1.0.0)
-    probedock-rspec (0.5.4)
+    probedock-rspec (0.5.5)
       probedock-ruby (~> 0.1)
       rspec (~> 3.1)
     probedock-ruby (0.1.1)
