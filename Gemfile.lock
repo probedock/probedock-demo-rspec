@@ -60,7 +60,7 @@ GEM
       rack (~> 1.2)
     oj (2.12.11)
     paint (1.0.0)
-    probedock-rspec (0.5.5)
+    probedock-rspec (0.6.0)
       probedock-ruby (~> 0.1)
       rspec (~> 3.1)
     probedock-ruby (0.1.1)
@@ -73,7 +73,6 @@ GEM
     rake-version (0.4.1)
       rake (~> 10)
     rdoc (4.2.0)
-      json (~> 1.4)
     rest-client (1.8.0)
       http-cookie (>= 1.0.2, < 2.0)
       mime-types (>= 1.16, < 3.0)
@@ -111,8 +110,11 @@ PLATFORMS
 DEPENDENCIES
   coveralls (~> 0.7.1)
   jeweler (~> 2.0)
-  probedock-rspec (~> 0.5.5)
+  probedock-rspec (~> 0.6.0)
   rake (~> 10.3)
   rake-version (~> 0.4.1)
   rspec (~> 3.1)
   simplecov (~> 0.9.1)
+
+BUNDLED WITH
+   1.10.6
