@@ -2,19 +2,25 @@
 
 > Demo of integration with [Probe Dock](https://github.com/probedock/probedock) and [Probe Dock RT](https://github.com/probedock/probedock-rt) for RSpec.
 
-## Usage
-
-1. Clone this repository
-
-2. Follow the registration process
-
-3. Setup the project
-
-4. Run the tests
-
-### Requirements
+## Requirements
 
 * Ruby 2.1.4+
+
+## Setup and usage
+
+1. Clone this repository.
+
+2. Run `bundle install`
+
+3. If already registered, skip this step. Do the [registration](http://) on the demo server and create your account. You will receive an email confirmation with a link. 
+
+4. Create the project in your organization on Probe Dock. First, access the [projects' page](https://demo.probedock.io/prevolescompany/projects) and click on the `Add a new project` button. You can use the name `rspec-sandbox` for example for both name and display name. You can leave the description empty for the demo.
+
+5. Once the project is created, you should follow the `Getting started` guide to setup your project. The guide will invite you to setup your main configuration file and the project configuration file. For this project, you must place the file `probedock.yml` in `<projectRootFolder>` folder. 
+
+6. Now, you can run the test via maven with `rake`. You will see test results on Probe Dock on the dashboard. You are able to see the result details by clicking on the report line. 
+
+9. Now you can play a bit with the tests. Break some tests and see the results on both interfaces. Play with the `probedock: { ... }` in the tests. You can also read the documentation of [Probe Dock RSpec](https://github.com/probedock/probedock-rspec) for more details about the client used to send the test results. You have also several information on the [library](https://github.com/probedock/probedock-ruby) used by the client. Finally, you will find the list of clients and libraries on this page: [Probe Dock Clients](https://github.com/probedock/probedock-clients).
 
 ## Contributing
 
