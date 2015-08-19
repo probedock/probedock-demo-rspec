@@ -20,7 +20,7 @@ SimpleCov.formatter = SimpleCov::Formatter::MultiFormatter[
 ]
 
 ProbeDockRSpec.configure do |config|
-  # Optional category to add to all the tests sent with this client.
+  # Optional category to add to all the tests sent with this probe.
   config.project.category = 'RSpec'
 end
 
