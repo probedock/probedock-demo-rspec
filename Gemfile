@@ -13,4 +13,5 @@ group :development do
   gem 'rake-version', '~> 0.4.1'
   gem 'simplecov', '~> 0.9.1'
   gem 'coveralls', '~> 0.7.1', require: false
+	gem 'rspec_junit_formatter', '0.2.3'
 end
